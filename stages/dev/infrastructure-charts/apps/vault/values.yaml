@@ -6,7 +6,7 @@ vault:
       VAULT_API_ADDR: "http://$(HOSTNAME).vault-internal:8200"
     ha:
       enabled: true
-      replicas: 1
+      replicas: 3
       raft:
         setNodeId: true
         enabled: true
