@@ -21,3 +21,5 @@ kafka:
   namespace: kafka
 basic-auth-gateway:
   namespace: routing
+vault:
+  namespace: vault
